@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev:dashboard": "npm --prefix ./lbbs_Dash_v2/lbbs-v2 run dev -- -p 3000",
+    "dev:landing": "npm --prefix ./lbbs_landing_v2 run dev -- -p 3002",
+    "dev:clientes": "npm --prefix ./lbbs-clientes run dev -- -p 3001",
+
+    "build:dashboard": "npm --prefix ./lbbs_Dash_v2/lbbs-v2 run build",
+    "build:landing": "npm --prefix ./lbbs_landing_v2 run build",
+
+    "lint:dashboard": "npm --prefix ./lbbs_Dash_v2/lbbs-v2 run lint",
+    "lint:landing": "npm --prefix ./lbbs_landing_v2 run lint",
+
+    "install:dashboard": "npm --prefix ./lbbs_Dash_v2/lbbs-v2 ci",
+    "install:landing": "npm --prefix ./lbbs_landing_v2 ci"
+  }
+}
